@@ -1,11 +1,11 @@
-public class Main {
+public class Task6 {
     public static void main(String[] args) {
-        int value = 33;
+        Integer value = 33;
         changeValue(value);
         System.out.println("value = " + value);
     }
 
-    public static void changeValue(int value) {
+    public static void changeValue(Integer value) {
         value = 22;
     }
 }
